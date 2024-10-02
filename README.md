@@ -1,4 +1,4 @@
-# Website under SocialMedia (React.js)
+# Strona Internetowa (React.js)
 
 Ten projekt to strona internetowa zbudowana w React.js, której celem jest integracja z różnymi platformami społecznościowymi. Strona zawiera sekcję stopki (footer), która umożliwia użytkownikom szybkie połączenie z popularnymi kanałami mediów społecznościowych.
 
