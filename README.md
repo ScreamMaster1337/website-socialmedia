@@ -30,7 +30,7 @@ Aby uruchomić ten projekt lokalnie, wykonaj poniższe kroki:
    git clone https://github.com/ScreamMaster1337/website-socialmedia.git
 2. Przejdź do katalogu projektu:
     ```bash
-   cd website-under-socialmedia
+   cd website-socialmedia
 3. Zainstaluj moduły:
    ```bash
    npm install
