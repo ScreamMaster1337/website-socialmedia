@@ -1,2 +1,2 @@
-# website-socialmedia
-Strona Internetowe pod SocialMedia ( React.js )
+# Website under socialmedia
+A website created in React.js
