@@ -1,0 +1,20 @@
+{
+  "short_name": "M4CODE.PL",
+  "name": "M4CODE.PL - STRONA GŁÓWNA",
+  "icons": [
+    {
+      "src": "M4CODE_1.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "M4CODE.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

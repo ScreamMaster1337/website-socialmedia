@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    background: #24252A;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 2rem 1rem;
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    /* Ustawia wysokość na 100% wysokości widoku */
+    width: 100vw;
+    /* Ustawia szerokość na 100% szerokości widoku */
+}
+
+section::before,
+section::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #e452d8;
+}
+
+section::before {
+    width: 100vw;
+    height: 100vh;
+    clip-path: circle(40vw at 100% -20%);
+}
+
+section::after {
+    width: 125vw;
+    height: 100vh;
+    clip-path: circle(40vw at 0% 100%);
+}
+
+.container .logoImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+    margin: 2rem 0;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.container .logoImg img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container .logoImg a {
+    color: white;
+    font-weight: 800;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    background-color: #e452d8;
+    border-radius: 25px;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.container .logoImg a:hover {
+    background-color: #c041b2;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 1rem;
+    position: relative;
+    user-select: none;
+    /* Uniemożliwia zaznaczanie tekstu */
+    -webkit-user-select: none;
+    /* Wymagane dla Safari */
+    -moz-user-select: none;
+    /* Wymagane dla Firefox */
+    -ms-user-select: none;
+    /* Wymagane dla Internet Explorer/Edge */
+}
+
+.footer-left {
+    text-align: center;
+    flex: 1;
+    margin: 0;
+    margin-left: 760px;
+    /* Odstęp między linkiem a kropką */
+}
+
+.footer-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+    margin-left: 500px;
+    /* Odstęp między linkiem a kropką */
+}
+
+.powered-logo {
+    height: auto;
+    max-height: 100px;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        padding: 1rem;
+        align-items: center;
+        margin-top: -5rem;
+        /* Zmniejsza przestrzeń nad footerem */
+    }
+
+    .footer-left,
+    .footer-right {
+        width: 100%;
+        margin: 0;
+    }
+
+    .footer-left {
+        text-align: center;
+    }
+
+    .footer-right {
+        display: flex;
+        justify-content: center;
+    }
+
+    .powered-logo {
+        max-height: 80px;
+    }
+
+    .container .logoImg {
+        width: 90%;
+        max-width: 280px;
+        justify-content: center;
+    }
+
+    section::before {
+        width: 120vw;
+        /* Zwiększa szerokość */
+        height: 120vh;
+        /* Zwiększa wysokość */
+        clip-path: circle(80vw at 100% -20%);
+        /* Dostosowuje kształt */
+    }
+
+    section::after {
+        width: 140vw;
+        /* Mniejsza szerokość niż wcześniej */
+        height: 120vh;
+        /* Mniejsza wysokość niż wcześniej */
+        clip-path: circle(40vw at 1% 95%);
+        /* Dostosowanie kształtu */
+    }
+
+    section {
+        padding-bottom: -1rem;
+        /* lub inna wartość, aby dodać przestrzeń na pasek nawigacyjny */
+    }
+}
