@@ -27,7 +27,7 @@ Aby uruchomić ten projekt lokalnie, wykonaj poniższe kroki:
 
 1. Sklonuj repozytorium:
    ```bash
-   git clone https://github.com/twoj-profil/website-under-socialmedia.git
+   git clone https://github.com/ScreamMaster1337/website-socialmedia.git
 2. Przejdź do katalogu projektu:
     ```bash
    cd website-under-socialmedia
