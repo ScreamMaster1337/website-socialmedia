@@ -31,3 +31,15 @@ Aby uruchomić ten projekt lokalnie, wykonaj poniższe kroki:
 1. Sklonuj repozytorium:
    ```bash
    git clone https://github.com/twoj-profil/website-under-socialmedia.git
+2. Przejdź do katalogu projektu:
+    ```bash
+   cd website-under-socialmedia
+3. Zainstaluj moduły:
+   ```bash
+   npm install
+4. Uruchom aplikację:
+   ```bash
+    npm run start
+
+**Autor:** [ScreamMaster1337](https://github.com/ScreamMaster1337)  
+**Licencja:** MIT
